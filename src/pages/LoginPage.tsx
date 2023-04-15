@@ -1,8 +1,12 @@
 import React from 'react'
+import App from '../App'
 
 const LoginPage = () => {
   return (
-    <div>LoginPage</div>
+    < > 
+    <App/>
+    <h2>login</h2>
+    </ >
   )
 }
 
