@@ -1,7 +1,11 @@
+import Layout from "../comonents/layout/Layout"
 
 const ServicePage = () => {
   return (
-    <div>ServicePage</div>
+    < >
+  <h2>Service Page</h2>
+     </ >
+
   )
 }
 
