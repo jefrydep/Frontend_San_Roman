@@ -4,16 +4,19 @@ import Layout from '../comonents/layout/Layout'
 
 const LoginPage = () => {
   return (
-    < > 
-    <div>
-      <div className="flex flex-row">
-        <h2 className=' '>hola</h2>
-        <h2>holadfd</h2>
+    <>
+    
 
+      <div className="flex-row   h-32 mt-3 mx-6 rounded-3xl bg-white ">
+        <h2>Home</h2>
+        <h3>homword</h3>
       </div>
-    </div>
-   
-    </ >
+      <div className="flex-row   h-full mt-3 mx-6 rounded-3xl bg-white ">
+        <h2>Home</h2>
+        <h3>homword</h3>
+      </div>
+     
+    </>
   )
 }
 

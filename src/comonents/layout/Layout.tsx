@@ -2,6 +2,11 @@ import { NavLink } from 'react-router-dom';
 
 const Layout = () => {
     const navItems = [
+      {
+        id: 0,
+        name: "Home",
+        link:'/'
+      },
         {
           id: 1,
           name: "Analitics",
