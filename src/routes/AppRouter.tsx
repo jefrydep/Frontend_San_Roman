@@ -3,7 +3,6 @@ import ServicePage from '../pages/Services'
 import Settings from '../pages/Setting'
 import LoginPage from '../pages/LoginPage'
 import App from '../App'
-import Layout from '../comonents/layout/Layout'
 
 const AppRouter = () => {
   return (
