@@ -55,8 +55,7 @@ const Layout = () => {
     
         },
       ];
-  return (
-    <div >
+  return ( 
     <aside className="bg-[#1E1F24]   w-72 h-screen p-8 mr-auto flex flex-col justify-between   rounded-br-3xl" >
     {/* <aside className="bg-[#1E1F24] fixed left-0  w-full h-10 p-8  first-letter: flex flex-col justify-between" > */}
       <div>
@@ -86,7 +85,7 @@ const Layout = () => {
       </div>
     </aside>
     
-  </div>
+  
   )
 }
 

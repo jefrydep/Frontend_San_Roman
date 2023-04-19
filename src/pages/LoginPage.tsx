@@ -1,22 +1,15 @@
-import React from 'react'
-import App from '../App'
-import Layout from '../comonents/layout/Layout'
-
+ 
+import { Fragment, useRef, useState } from 'react'
+import { Dialog, Transition } from '@headlessui/react'
+import { ExclamationTriangleIcon } from '@heroicons/react/24/outline'
 const LoginPage = () => {
-  return (
-    <>
-    
+  const [open, setOpen] = useState(true)
 
-      <div className="flex-row   h-32 mt-3 mx-6 rounded-3xl bg-white ">
-        <h2>Home</h2>
-        <h3>homword</h3>
-      </div>
-      <div className="flex-row   h-full mt-3 mx-6 rounded-3xl bg-white ">
-        <h2>Home</h2>
-        <h3>homword</h3>
-      </div>
-     
-    </>
+  const cancelButtonRef = useRef(null)
+
+  return (
+     <>
+     </>
   )
 }
 
